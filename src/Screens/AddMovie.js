@@ -5,8 +5,8 @@ export default function ScreenAddMovie() {
     
     let dispatch = useDispatch()
 
-    let newFilm = useSelector((state) => {
-        return state.reducer.newFilm
+    let newFilm = useSelector((redux) => {
+        return redux.reducer.newFilm
     })
 
 
